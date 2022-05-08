@@ -1,3 +1,75 @@
+body{
+    background: black url('https://res.cloudinary.com/dlb0fs0l8/image/upload/v1652050686/pexels-olya-kobruseva-8962519_kdp14a.jpg');
+    background-size:cover;
+}
+
+.myListContainer{
+    margin-top: 5rem!important;
+    width: 42rem!important;
+    background-color: rgba(14, 14, 13, 0.70);
+}
+
+.myContainer{
+    width: 30rem!important;
+}
+
+
+h1{
+    font-family: 'Monoton';
+    color: rgba(174, 184, 206, 0.945);
+}
+
+input{
+    background-color: rgba(165, 160, 160, 0.144);
+    color: rgba(174, 184, 206, 0.945);
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+::placeholder, .taskNum, .taskTitle{
+    color: rgba(174, 184, 206, 0.945);
+}
+
+hr{
+    background-color: rgba(233, 236, 245, 0.603);
+}
+
+.myTask{
+    color: rgba(242, 243, 247, 0.986);
+}
+
+.fa-trash-alt{
+    color: rgba(247, 9, 9, 0.61);
+    cursor: pointer;
+}
+
+.fa-trash-alt:hover{
+    color: rgb(245, 29, 1);
+}
+
+.fa-check{
+    color: rgba(53, 133, 7, 0.747);
+    cursor: pointer;
+}
+
+.fa-check:hover{
+    color: rgb(4, 248, 16);
+}
+
+.fa-times{
+     color: rgba(184, 107, 7, 0.747);
+    cursor: pointer;
+}
+
+.fa-times:hover{
+     color: rgb(255, 145, 0);
+}
+
+
 
 /* 
 
